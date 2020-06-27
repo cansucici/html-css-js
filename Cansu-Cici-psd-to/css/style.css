@@ -1,0 +1,127 @@
+/* background-color:#272c33;326251
+#position: absolute;
+#top: 50%;
+linear-gradient(F291b43, F336352); 
+291b43    336352*/
+
+.main{
+width:100%;
+height:100%;
+/*display:table;*/
+background-image: linear-gradient(#272c33, #2d5347);
+}
+
+.container{
+/*display: table-cell;*/
+vertical-align: center;
+width:100%;
+height:100%;
+margin:10px, auto;
+background-image: linear-gradient(#272c33, #2d5347);
+}
+
+.btn1 {
+  font-size: 16px;
+  margin-top:30px;
+  margin-bottom:10px;
+  background-color: #272c33; 
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+.btn1:hover {
+  background-color: #368998; /* blue */
+  color: white;
+}
+
+.btn1:active {
+  background-color: #00deff; /* blue */
+  color: black;
+}
+
+.btn2 {
+  font-size: 12px;
+  background-color: #272c33; 
+  border: none;
+  padding: 12px 28px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+}
+
+
+.btn2:hover {
+  background-color: #af8229; 
+  color: white;
+}
+
+.btn2:active {
+  background-color: #ffb000; 
+  color: black;
+}
+
+
+input[type=text] {
+  border: none;
+ width:150px;
+ background-color: #272c33; 
+ background-repeat: no-repeat;
+ padding:8px 10px;
+ color:white;
+ border-radius: 8px;
+ background-image: url('9.png');
+ background-position: 10px 10px;
+}
+
+
+select {
+	box-sizing: 300px;
+	color:white;
+    width: 170px;
+	border: none;
+    padding:8px 15px;
+   -moz-appearance: none;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color:#272c33 ;
+}
+
+
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+input[type=number] {
+  border: none;
+ width:80px;
+ background-color: #272c33; 
+ background-repeat: no-repeat;
+ padding:10px 10px;
+ color:white;
+ border-radius: 8px;
+
+}
+
+.searchbtn{
+	position: absolute;
+	font-size: 10px;
+	color: white;
+	background-color: #272c33;
+	width: 7%;
+	outline: none;
+}
+
+
